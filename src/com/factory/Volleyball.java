@@ -92,7 +92,7 @@ public class Volleyball
 	
 	void changeCompanayName(String cname)
 	{
-	brandName=cname;	
+	 brandName=cname;	
 	}
 
 	
@@ -107,15 +107,15 @@ public class Volleyball
 		
 		System.out.println("[!!**********Creating Same Type of Volleyball***********!!]");
 		System.out.println("");
-		Volleyball bulb1=new Volleyball();
-	    Volleyball bulb2=new Volleyball();
-		Volleyball bulb3=new Volleyball();
+		Volleyball volleyball1=new Volleyball();
+	    Volleyball volleyball2=new Volleyball();
+		Volleyball volleyball3=new Volleyball();
 		System.out.println("***********Details of Volleyball1***************");
-		bulb1.showDetails();
+		volleyball1.showDetails();
 		System.out.println("***********Details of Volleyball2***************");
-		bulb2.showDetails();
+		volleyball2.showDetails();
 		System.out.println("***********Details of Volleyball3***************");
-		bulb3.showDetails();
+		volleyball3.showDetails();
 		Volleyball.countVolleyball();
 		
 		/*
@@ -139,7 +139,7 @@ public class Volleyball
         System.out.println("Enter state (true/false) for Volleyball4:");
         boolean state4 = scan.nextBoolean();
         
-        Volleyball bulb4 = new Volleyball(weight4, price4, color4, state4);
+        Volleyball volleyball4 = new Volleyball(weight4, price4, color4, state4);
         
         System.out.println("Enter weight for Volleyball5:");
         int weight5 = scan.nextInt();
@@ -154,21 +154,21 @@ public class Volleyball
         boolean state5 = scan.nextBoolean();
         
         
-        Volleyball bulb5 = new Volleyball(weight5, price5, color5, state5);
+        Volleyball volleyball5 = new Volleyball(weight5, price5, color5, state5);
         
          
 		
 		System.out.println("***********Details of Volleyball4***************");
-		bulb4.showDetails();
+		volleyball4.showDetails();
 		System.out.println("***********Details of Volleyball5***************");
-		bulb5.showDetails();
+		volleyball5.showDetails();
 		 
 		Volleyball.countVolleyball();
 		
-		bulb5.changeCompanayName("Nadeem-Volleyball");
+		volleyball5.changeCompanayName("Nadeem-Volleyball");
 		
 		System.out.println("***********updated Details of Volleyball5***************");
-		bulb5.showDetails();
+		volleyball5.showDetails();
 		
 	}
 
